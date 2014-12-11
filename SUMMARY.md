@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-   * Philosophy
+   * [Philosophy](philosophy.md)
 
