@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
    * [Philosophy](philosophy.md)
-* [HTML Version](html_version.md)
+* [HTML Version](html_version/README)
 

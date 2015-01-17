@@ -1,4 +1,4 @@
-GitBook Example
-=======
+# My Book
 
-Welcome in your GitBook!
+Welcome in my book!
+
