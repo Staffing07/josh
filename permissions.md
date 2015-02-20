@@ -1,6 +1,6 @@
 # Directory Permissions
 
-You'll need to make sure that the <code>app/storage</code> directory is writable by your webserver, since caches and log files get written there. You should use the minimum permissions available for writing, based on how you've got your webserver configured.
+You'll need to make sure that the <code>storage</code> directory is writable by your webserver, since caches and log files get written there. You should use the minimum permissions available for writing, based on how you've got your webserver configured.
 
 ```
 chmod -R 755 storage
