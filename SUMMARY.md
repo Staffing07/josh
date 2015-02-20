@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
    * [Philosophy](philosophy.md)
-   * Laravel 5 Version
 * [HTML Version](html_version/README.md)
    * [Layout](html_version/layout.md)
        * [Header](html_version/header.md)
