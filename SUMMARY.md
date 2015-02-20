@@ -26,5 +26,5 @@
    * [Learning Laravel](laravel_version/learning_laravel.md)
 * [Laravel 5 Version](laravel_5_version.md)
    * [Installation](installation.md)
-       * da
+       * Database & Environment setup
 
