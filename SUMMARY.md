@@ -30,5 +30,5 @@
        * [Permissions](permissions.md)
        * [Mail Setup](mail_setup.md)
        * [Copying Josh files](copying_josh_files.md)
-       * Install Josh
+       * [Install Josh](install_josh.md)
 
