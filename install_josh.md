@@ -1,12 +1,40 @@
 # Install Josh
 We try to minimise use of third party packages but <code>sentry</code> is one package which provides many features out of box so we use it.
 
+### Setup HTML package
+
+Laravel 5 doesn't come with HTML,FORM package by default,
+
+if you want to use it... we need to add package manually
+
+Since we use it in many places, we have to add it to our composer.json
+
+** Add Package to composer**
+
+open your composer.json file and add the following to the require array:
+
+<code>""illuminate/html": "~5.0","</code> then in terminal/cmd run <code>composer update</code>
+
+** Add service providers **
+
+Open <code>config/app.php</code> and add following lines
+
+In the <code>$providers</code> array add the following service provider
+
+<code>'Illuminate\Html\HtmlServiceProvider',</code>
+
+In the <code>$aliases</code> array add  following facades
+
+<code>'Form'      => 'Illuminate\Html\FormFacade',</code>
+
+<code>'Html'      => 'Illuminate\Html\HtmlFacade',</code>
+
 ### Setup sentry
 **Add Sentry to composer**
 
 Open your composer.json file and add the following to the require array:
 
-<code>""cartalyst/sentry": "dev-feature/laravel-5",</code>
+<code>"cartalyst/sentry": "dev-feature/laravel-5",</code>
 
 now in your command prompt run <code>composer update</code> and all required files will be added
 
@@ -14,7 +42,7 @@ now in your command prompt run <code>composer update</code> and all required fil
 
 Now, we need to add sentry service provider to make use of it.
 
-Open <code>app/config/app.php</code> and add following lines
+Open <code>config/app.php</code> and add following lines
 
 In the <code>$providers</code> array add the following service provider
 
