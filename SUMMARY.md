@@ -29,4 +29,5 @@
        * [Database & Environment setup](database_&_environment_setup.md)
        * [Permissions](permissions.md)
        * [Mail Setup](mail_setup.md)
+       * Copying Josh files
 
