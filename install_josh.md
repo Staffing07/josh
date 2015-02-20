@@ -1,5 +1,5 @@
 # Install Josh
-We try to minimise use of third party packages but <code>sentry</code> is one package which provides many features out of box so we use it.
+We need to install following packages, run migrations and database seeding.
 
 ### Setup HTML package
 
