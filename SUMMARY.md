@@ -24,5 +24,5 @@
        * [Install Josh](laravel_version/install_josh.md)
    * [Packages](laravel_version/packages.md)
    * [Learning Laravel](laravel_version/learning_laravel.md)
-* Laravel 5 Version
+* [Laravel 5 Version](laravel_5_version.md)
 
