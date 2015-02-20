@@ -28,5 +28,5 @@
    * [Installation](installation.md)
        * [Database & Environment setup](database_&_environment_setup.md)
        * [Permissions](permissions.md)
-       * Mail Setup
+       * [Mail Setup](mail_setup.md)
 
