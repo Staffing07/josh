@@ -56,7 +56,7 @@ Now we need to add user, groups etc tables to database, to do so in your command
 
 ```
 
-php artisan migrate --package=cartalyst/sentry
+php artisan migrate --path=vendor/cartalyst/sentry/src/migrations
 
 ```
 
@@ -66,7 +66,7 @@ Now we need to publish config, so that you can edit configuration, if needed
 Excecute following command in command prompt/terminal
 ```
 
-php artisan config:publish cartalyst/sentry
+php artisan vendor:publish
 
 ```
 
@@ -84,11 +84,11 @@ php artisan db:seed
 
 **A default admin user with user with username admin@admin.com and password admin will be created**
 
-Note: Optional:If you wish to use a different username or password, please open <code>app\database\seeds\AdminSeeder.php</code> and edit values around lines 14-18
+Note: Optional:If you wish to use a different username or password, please open <code>database\seeds\AdminSeeder.php</code> and edit values around lines 14-18
 
 ### Adding extra fields to users table
 We have added many other fields to <code>users</code> table, you can add all those fields by executing below command in command prompt/terminal
 
 <code>php artisan migrate</code>
 
-Note: please check all files in <code>app/database/migrations</code> to know what fields are being added.
+Note: please check all files in <code>database/migrations</code> to know what fields are being added.
