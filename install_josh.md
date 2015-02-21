@@ -87,3 +87,16 @@ php artisan db:seed
 **A default admin user with user with username admin@admin.com and password admin will be created**
 
 Optional: If you wish to use a different username or password, please open <code>database\seeds\AdminSeeder.php</code> and edit values around lines 14-18
+
+
+### upload directory permissions
+
+user's profile pics will be uploaded into <code>public/uploads/users</code>
+
+so we need to provide write access for that folder
+
+to do so, please run following command in your command prompt/terminal
+
+```
+chmod 777 public/uploads/users
+```
