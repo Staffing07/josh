@@ -86,4 +86,4 @@ php artisan db:seed
 
 **A default admin user with user with username admin@admin.com and password admin will be created**
 
-Optional:If you wish to use a different username or password, please open <code>database\seeds\AdminSeeder.php</code> and edit values around lines 14-18
+Optional: If you wish to use a different username or password, please open <code>database\seeds\AdminSeeder.php</code> and edit values around lines 14-18
