@@ -91,4 +91,4 @@ We have added many other fields to <code>users</code> table, you can add all tho
 
 <code>php artisan migrate</code>
 
-Note: please check all files in <code>database/migrations</code> to know what fields are being added.
+Note: please check all files in <code>database\migrations</code> to know what fields are being added.
