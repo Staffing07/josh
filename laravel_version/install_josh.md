@@ -56,7 +56,7 @@ php artisan db:seed
 
 **A default admin user with user with username admin@admin.com and password admin will be created**
 
-Note: Optional:If you wish to use a different username or password, please open <code>app\database\seeds\AdminSeeder.php</code> and edit values around lines 14-18
+Optional: If you wish to use a different username or password, please open <code>app\database\seeds\AdminSeeder.php</code> and edit values around lines 14-18
 
 ### Adding extra fields to users table
 We have added many other fields to <code>users</code> table, you can add all those fields by executing below command in command prompt/terminal
