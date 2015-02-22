@@ -1,6 +1,17 @@
 # Install Josh
 We need to install following packages, run migrations and database seeding.
 
+### Delete existing migration files
+
+Since we are not relying on default migration tables, please remove following two files from <code>database/migrations</code> folder
+
+```
+2014_10_12_000000_create_users_table.php
+2014_10_12_100000_create_password_resets_table.php
+```
+
+Otherwise you will get error at later stage of installation.
+
 ### Setup HTML package
 
 Laravel 5 doesn't come with HTML,FORM package by default,
