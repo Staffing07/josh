@@ -18,6 +18,8 @@ If you are new to server management then don't worry
 
 [Laravel forge](http://forge.laravel.com) will take care of common tasks, so you can sleep peacefully
 
+[watch videos](https://laracasts.com/series/server-management-with-forge) if you need help.
+
 
 
 
