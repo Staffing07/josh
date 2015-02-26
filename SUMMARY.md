@@ -31,6 +31,6 @@
        * [Mail Setup](mail_setup.md)
        * [Copying Josh files](copying_josh_files.md)
        * [Install Josh](install_josh.md)
-* [Packages](laravel_version/packages.md)
 * Laravel resources
+* [Packages](laravel_version/packages.md)
 
