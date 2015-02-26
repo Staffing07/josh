@@ -22,7 +22,7 @@
        * [Mail](laravel_version/mail.md)
        * [Copying Josh files](laravel_version/copying_josh_files.md)
        * [Install Josh](laravel_version/install_josh.md)
-   * [Packages](laravel_version/packages.md)
+   * [Learning Laravel](laravel_version/learning_laravel.md)
    * [Learning Laravel](laravel_version/learning_laravel.md)
 * [Laravel 5 Version](laravel_5_version.md)
    * [Installation](installation.md)
@@ -31,5 +31,6 @@
        * [Mail Setup](mail_setup.md)
        * [Copying Josh files](copying_josh_files.md)
        * [Install Josh](install_josh.md)
+* [Packages](laravel_version/packages.md)
 * Laravel resources
 
