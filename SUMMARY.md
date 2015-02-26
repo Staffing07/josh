@@ -32,6 +32,6 @@
        * [Copying Josh files](copying_josh_files.md)
        * [Install Josh](install_josh.md)
 * [Laravel resources](laravel_resources.md)
+   * [Packages](laravel_version/packages.md)
    * Hosting
-* [Packages](laravel_version/packages.md)
 
