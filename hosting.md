@@ -8,7 +8,7 @@ We Strongly suggest you to choose a vps or dedicated server for following reason
 
 ## Recommended  Hosting Providers
 
-* [DigitalOcean](https://www.digitalocean.com/?refcode=0ba7cf5ea6ce) - get $10 credit to try it
+* [DigitalOcean](https://www.digitalocean.com/?refcode=0ba7cf5ea6ce)
 * [Linode](https://linode.com)
 * 
 ## Maintaing vps
