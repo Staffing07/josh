@@ -10,7 +10,8 @@ We Strongly suggest you to choose a vps or dedicated server for following reason
 
 * [DigitalOcean](https://www.digitalocean.com/?refcode=0ba7cf5ea6ce)
 * [Linode](https://linode.com)
-* 
+
+
 ## Maintaing vps
 
 If you are new to server management then don't worry
