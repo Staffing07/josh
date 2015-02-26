@@ -22,8 +22,6 @@
        * [Mail](laravel_version/mail.md)
        * [Copying Josh files](laravel_version/copying_josh_files.md)
        * [Install Josh](laravel_version/install_josh.md)
-   * [Learning Laravel](laravel_version/learning_laravel.md)
-   * [Learning Laravel](laravel_version/learning_laravel.md)
 * [Laravel 5 Version](laravel_5_version.md)
    * [Installation](installation.md)
        * [Database & Environment setup](database_&_environment_setup.md)
