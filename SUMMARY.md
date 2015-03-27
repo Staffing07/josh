@@ -21,7 +21,7 @@
        * [Mail Setup](mail_setup.md)
        * [Copying Josh files](copying_josh_files.md)
        * [Install Josh](install_josh.md)
-   * FAQ
+   * [FAQ](faq.md)
 * [Laravel 4 Version](laravel_version/README.md)
    * [Features & Requirements](laravel_version/features_&_requirement.md)
    * [Installation](laravel_version/installation.md)
