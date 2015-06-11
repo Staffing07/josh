@@ -1,6 +1,6 @@
 # Copying Josh files
 
-**If you are using 5.1 please ignore this step.**
+**If you are using 5.1, you don't need to execute below command, proceed directly to copying files**
 
 Laravel 5 ships with a basic auth so it includes many files like views, controllers etc.
 
