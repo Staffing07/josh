@@ -1,5 +1,7 @@
 # Copying Josh files
 
+**If you are using 5.1 please ignore this step.**
+
 Laravel 5 ships with a basic auth so it includes many files like views, controllers etc.
 
 Since we don't need any of them, please execute following command to remove them.
