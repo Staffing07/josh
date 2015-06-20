@@ -24,7 +24,7 @@ Since we use it in many places, we have to add it to our composer.json
 
 open your composer.json file and add the following to the require array:
 
-<code>""illuminate/html": "~5.0","</code> then in terminal/cmd run <code>composer update</code>
+<code>"illuminate/html": "~5.0",</code> then in terminal/cmd run <code>composer update</code>
 
 ** Add service providers **
 
@@ -45,7 +45,7 @@ In the <code>$aliases</code> array add  following facades
 
 Open your composer.json file and add the following to the require array:
 
-<code>"cartalyst/sentry": "dev-feature/laravel-5",</code>
+<code>"cartalyst/sentry": "dev-feature/laravel-5"</code>
 
 now in your command prompt run <code>composer update</code> and all required files will be added
 
