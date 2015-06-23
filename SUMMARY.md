@@ -34,5 +34,5 @@
    * [Packages](laravel_version/packages.md)
    * [Learning Laravel](laravel_version/learning_laravel.md)
    * [Hosting](hosting.md)
-* Laravel 5.1
+* [Laravel 5.1](laravel_51.md)
 
