@@ -14,6 +14,7 @@
    * [Plugins Used](html_version/plugins_used.md)
    * [Images Used](html_version/images_used.md)
    * [Fonts Used](html_version/fonts_used.md)
+* Laravel 5.1 Version
 * [Laravel 5 Version](laravel_5_version.md)
    * [Installation](installation.md)
        * [Database & Environment setup](database_&_environment_setup.md)
@@ -34,5 +35,4 @@
    * [Packages](laravel_version/packages.md)
    * [Learning Laravel](laravel_version/learning_laravel.md)
    * [Hosting](hosting.md)
-* Laravel 5.1 Version
 
