@@ -13,6 +13,15 @@ Using CRUD You can generate
 
 or **ALL** of them
 
+
+#### Usage
+
+
+---
+
+Please click here for usage info
+
+
 ## reporting bugs, suggestions
 
 since its new feature, please feel free to report bugs, suggestions at [issues](https://bitbucket.org/lorvent/josh_laravel51/issues) section
