@@ -16,10 +16,7 @@ or **ALL** of them
 
 #### Usage
 
-
----
-
-Please click here for usage info
+[Please click here for usage info](http://lorvent.gitbooks.io/josh/content/crud.html)
 
 
 ## reporting bugs, suggestions
