@@ -13,6 +13,16 @@ Using CRUD You can generate
 
 or **ALL** of them
 
+#### Installation
+
+all files are provided in downloaded folder.
+
+open config/app.php and in providers array, add
+````php
+    'App\Providers\JoshCrudGeneratorServiceProvider',
+````
+
+
 
 #### Usage
 
