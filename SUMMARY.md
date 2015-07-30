@@ -38,4 +38,5 @@
 * [CRUD](crud/index.md)
    * [crud](crud.md)
 * [Updates](updates/index.md)
+   * 3.0
 
