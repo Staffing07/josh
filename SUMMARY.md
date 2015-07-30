@@ -35,5 +35,5 @@
    * [Packages](laravel_version/packages.md)
    * [Learning Laravel](laravel_version/learning_laravel.md)
    * [Hosting](hosting.md)
-* CRUD
+* [CRUD](crud/index.md)
 
