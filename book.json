@@ -1,8 +1,11 @@
 {
-    "plugins": ["disqus"],
+    "plugins": ["disqus"],["ga"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "joshadmin"
+        },
+        "ga": {
+            "token": "UA-53569782-1"
         }
     }  
 }
