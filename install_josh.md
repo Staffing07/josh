@@ -24,7 +24,7 @@ Since we use it in many places, we have to add it to our composer.json
 
 open your composer.json file and add the following to the require array:
 
-<code>"illuminate/html": "~5.0",</code> then in terminal/cmd run <code>composer update</code>
+<code>"laravelcollective/html": "5.1.*"</code> then in terminal/cmd run <code>composer update</code>
 
 ** Add service providers **
 
@@ -32,20 +32,20 @@ Open <code>config/app.php</code> and add following lines
 
 In the <code>$providers</code> array add the following service provider
 
-<code>'Illuminate\Html\HtmlServiceProvider',</code>
+<code>Collective\Html\HtmlServiceProvider::class,</code>
 
 In the <code>$aliases</code> array add  following facades
 
-<code>'Form'      => 'Illuminate\Html\FormFacade',</code>
+<code>'Form' => Collective\Html\FormFacade::class,</code>
 
-<code>'Html'      => 'Illuminate\Html\HtmlFacade',</code>
+<code>'Html' => Collective\Html\HtmlFacade::class,</code>
 
 ### Setup sentry
 **Add Sentry to composer**
 
 Open your composer.json file and add the following to the require array:
 
-<code>"cartalyst/sentry": "dev-feature/laravel-5"</code>
+<code>"cartalyst/sentinel": "2.0.*"</code>
 
 now in your command prompt run <code>composer update</code> and all required files will be added
 
@@ -57,11 +57,15 @@ Open <code>config/app.php</code> and add following lines
 
 In the <code>$providers</code> array add the following service provider
 
-<code>'Cartalyst\Sentry\SentryServiceProvider',</code>
+<code>'Cartalyst\Sentinel\Laravel\SentinelServiceProvider',</code>
 
 In the <code>$aliases</code> array add the following facade
 
-<code>'Sentry' => 'Cartalyst\Sentry\Facades\Laravel\Sentry',</code>
+````
+'Activation' => 'Cartalyst\Sentinel\Laravel\Facades\Activation',
+'Reminder'   => 'Cartalyst\Sentinel\Laravel\Facades\Reminder',
+'Sentinel'   => 'Cartalyst\Sentinel\Laravel\Facades\Sentinel',
+````
 
 Now we need to add user, groups etc tables to database, to do so in your command prompt, execute following code
 
