@@ -40,8 +40,8 @@ In the <code>$aliases</code> array add  following facades
 
 <code>'Html' => Collective\Html\HtmlFacade::class,</code>
 
-### Setup sentry
-**Add Sentry to composer**
+### Setup sentinel
+**Add Sentinel to composer**
 
 Open your composer.json file and add the following to the require array:
 
@@ -49,9 +49,9 @@ Open your composer.json file and add the following to the require array:
 
 now in your command prompt run <code>composer update</code> and all required files will be added
 
-**Add sentry service provider**
+**Add sentinel service provider**
 
-Now, we need to add sentry service provider to make use of it.
+Now, we need to add sentinel service provider to make use of it.
 
 Open <code>config/app.php</code> and add following lines
 
@@ -87,7 +87,11 @@ php artisan vendor:publish
 
 ```
 
-please headover to [sentry website](https://cartalyst.com/manual/sentry) to learn more about it
+please headover to [sentinel website](https://cartalyst.com/manual/sentinel) to learn more about it
+
+** Use our user model for sentinel **
+
+open 
 
 ### Add admin user
 As database tables have been setup, we need to add admin user to be able to login into adminCP.
