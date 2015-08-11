@@ -89,9 +89,23 @@ php artisan vendor:publish
 
 please headover to [sentinel website](https://cartalyst.com/manual/sentinel) to learn more about it
 
-** Use our user model for sentinel **
+** setting up config to use our model**
 
-open 
+since we have different requirements (extra fields in users table), we need to change sentinel config to use our user Model,
+
+to do that open <code>config/cartalyst.sentinel.php</code>
+
+at line 56, find
+
+````
+'model' => 'Cartalyst\Sentinel\Users\EloquentUser',
+````
+
+replace it with
+
+````
+'model' => 'App/User',
+```
 
 ### Add admin user
 As database tables have been setup, we need to add admin user to be able to login into adminCP.
