@@ -35,4 +35,4 @@ since its new feature, please feel free to report bugs, suggestions at [issues](
 
 ## early access
 
-if you would like to have early access to new features, please [contact us](http://codecanyon.net/user/jyostna#contact) with your purchase and bitbucket username and we will add you to repo.
+if you would like to have early access to new features, please [contact us](http://codecanyon.net/user/jyostna#contact) with your purchase code  and your email address and we will add you to repo.
