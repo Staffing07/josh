@@ -104,7 +104,7 @@ at line 56, find
 replace it with
 
 ````
-'model' => 'App/User',
+'model' => 'App\User',
 ```
 
 ### Add admin user
