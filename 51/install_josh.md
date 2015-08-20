@@ -135,3 +135,8 @@ chmod 775 public/uploads/users
 chmod 775 public/uploads/blog
 ```
 ###Congratulations! You are ready to rock the world!!
+
+
+---
+
+
