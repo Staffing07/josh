@@ -17,6 +17,7 @@
    * [Fonts Used](html_version/fonts_used.md)
 * [Laravel 5.1](laravel_51.md)
    * [Installation](51/installation.md)
+       * Database setup
 * [Laravel 5 Version](laravel_5_version.md)
    * [Installation](installation.md)
        * [Database & Environment setup](database_&_environment_setup.md)
