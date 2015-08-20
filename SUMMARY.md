@@ -21,7 +21,7 @@
        * [Permissions](51/permissions.md)
        * [Mail Setup](51/mail_setup.md)
        * [Copying Josh Files](51/copying_josh_files.md)
-       * Install Josh
+       * [Install Josh](51/install_josh.md)
 * [Laravel 5 Version](laravel_5_version.md)
    * [Installation](installation.md)
        * [Database & Environment setup](database_&_environment_setup.md)
