@@ -9,3 +9,7 @@ execute following command in terminal to make it.
 <code>cp .env.example .env</code>
 
 then edit database, environment related details in that file.
+
+
+---
+
