@@ -18,7 +18,7 @@
 * [Laravel 5.1](laravel_51.md)
    * [Installation](51/installation.md)
        * [Database setup](51/database_setup.md)
-       * Permissions
+       * [Permissions](51/permissions.md)
 * [Laravel 5 Version](laravel_5_version.md)
    * [Installation](installation.md)
        * [Database & Environment setup](database_&_environment_setup.md)
