@@ -21,3 +21,7 @@ Please follow [official guidelines](http://laravel.com/docs/5.1/upgrade#upgrade-
 Since laravel has changed a lot in laravel 5, we are not providing any direct way of upgrading to laravel 5 from 4.
 
 If you really want to do that, please follow [official guidelines](http://laravel.com/docs/5.1/upgrade) or follow [Matt Stauffer's](http://mattstauffer.co/blog/upgrading-from-laravel-4-to-laravel-5) guide.
+
+
+---
+
