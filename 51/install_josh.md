@@ -8,11 +8,13 @@ We need to add those packages to <code>composer.json</code>, publish vendor conf
 
 | Package name | repo | manual |
 | -- | -- | -- |
-| cartalyst\sentinel | [repo](https://github.com/cartalyst/sentinel) | [manual](https://cartalyst.com/manual/sentinel/2.0) |
-| laravelcollective\html | [repo](https://github.com/LaravelCollective/html) | [manual](http://laravelcollective.com/docs/5.1/html) |
-| 0:4 | 1:4 | 2:4 |
+| cartalyst/sentinel | [repo](https://github.com/cartalyst/sentinel) | [manual](https://cartalyst.com/manual/sentinel/2.0) |
+| laravelcollective/html | [repo](https://github.com/LaravelCollective/html) | [manual](http://laravelcollective.com/docs/5.1/html) |
+| cviebrock/eloquent-sluggable | [repo](https://github.com/cviebrock/eloquent-sluggable) | [manual](https://github.com/cviebrock/eloquent-sluggable/blob/master/README.md) |
+| cviebrock/eloquent-taggable | [repo](https://github.com/cviebrock/eloquent-taggable) | [manual](https://github.com/cviebrock/eloquent-taggable/blob/master/README.md) |
 
 
+---
 
 ### Delete existing migration files
 
@@ -25,66 +27,50 @@ Since we are not relying on default migration tables, please remove following tw
 
 Otherwise you will get error at later stage of installation.
 
-### Setup HTML package
 
-Laravel 5 doesn't come with HTML,FORM package by default,
+---
 
-if you want to use it... we need to add package manually
-
-Since we use it in many places, we have to add it to our composer.json
+### Install Packages
 
 ** Add Package to composer**
 
-open your composer.json file and add the following to the require array:
+Now add above mentioned packages in ```composer.json``` in ```require``` array
 
-<code>"laravelcollective/html": "5.1.*"</code> then in terminal/cmd run <code>composer update</code>
+````
+"cartalyst/sentinel": "2.0.*",
+"laravelcollective/html": "5.1.*",
+"cviebrock/eloquent-sluggable": "dev-master",
+"cviebrock/eloquent-taggable": "dev-master"
+````
 
 ** Add service providers **
 
-Open <code>config/app.php</code> and add following lines
+Open <code>config/app.php</code> and add following lines in the <code>$providers</code> array 
 
-In the <code>$providers</code> array add the following service provider
-
-<code>Collective\Html\HtmlServiceProvider::class,</code>
+````php
+Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
+Collective\Html\HtmlServiceProvider::class,
+Cviebrock\EloquentSluggable\SluggableServiceProvider::class,
+Cviebrock\EloquentTaggable\ServiceProvider::class,
+````
 
 In the <code>$aliases</code> array add  following facades
-
-<code>'Form' => Collective\Html\FormFacade::class,</code>
-
-<code>'Html' => Collective\Html\HtmlFacade::class,</code>
-
-### Setup sentinel
-**Add Sentinel to composer**
-
-Open your composer.json file and add the following to the require array:
-
-<code>"cartalyst/sentinel": "2.0.*"</code>
-
-now in your command prompt run <code>composer update</code> and all required files will be added
-
-**Add sentinel service provider**
-
-Now, we need to add sentinel service provider to make use of it.
-
-Open <code>config/app.php</code> and add following lines
-
-In the <code>$providers</code> array add the following service provider
-
-<code>'Cartalyst\Sentinel\Laravel\SentinelServiceProvider',</code>
-
-In the <code>$aliases</code> array add the following facade
-
-````
-'Activation' => 'Cartalyst\Sentinel\Laravel\Facades\Activation',
-'Reminder'   => 'Cartalyst\Sentinel\Laravel\Facades\Reminder',
-'Sentinel'   => 'Cartalyst\Sentinel\Laravel\Facades\Sentinel',
+````php
+'Activation' => Cartalyst\Sentinel\Laravel\Facades\Activation::class,
+'Reminder'   => Cartalyst\Sentinel\Laravel\Facades\Reminder::class,
+'Sentinel'   => Cartalyst\Sentinel\Laravel\Facades\Sentinel::class,
+'Form' => Collective\Html\FormFacade::class,
+'Html' => Collective\Html\HtmlFacade::class,
 ````
 
-Now we need to publish config, so that you can edit configuration, if needed
+** publish vendors **
+
+now we need to publish vendor files so that they will publish config files, migrations.
 
 Excecute following command in command prompt/terminal
 ```
-
+php artisan sluggable:table blogs
+php artisan taggable:table
 php artisan vendor:publish
 
 ```
@@ -101,8 +87,6 @@ Note: please check all files in <code>database\migrations</code> to know what fi
 
 
 
-
-please headover to [sentinel website](https://cartalyst.com/manual/sentinel) to learn more about it
 
 ** setting up config to use our model**
 
@@ -122,7 +106,8 @@ replace it with
 'model' => 'App\User',
 ```
 
-### Add admin user
+** Add admin user**
+
 As database tables have been setup, we need to add admin user to be able to login into adminCP.
 
 Run following command in your command prompt
@@ -132,12 +117,12 @@ php artisan db:seed --class=AdminSeeder
 
 ```
 
-**A default admin user with user with username admin@admin.com and password admin will be created**
+*A default admin user with user with username admin@admin.com and password admin will be created*
 
 Optional: If you wish to use a different username or password, please open <code>database\seeds\AdminSeeder.php</code> and edit values around lines 14-18
 
 
-### upload directory permissions
+** upload directory permissions **
 
 user's profile pics will be uploaded into <code>public/uploads/users</code>
 
@@ -146,5 +131,7 @@ so we need to provide write access for that folder
 to do so, please run following command in your command prompt/terminal
 
 ```
-chmod 777 public/uploads/users
+chmod 775 public/uploads/users
+chmod 775 public/uploads/blog
 ```
+###Congratulations! You are ready to rock the world!!
