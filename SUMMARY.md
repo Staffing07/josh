@@ -43,5 +43,5 @@
        * [3.1](updates/31.md)
        * [3.1.1](updates/311.md)
        * [3.1.2](updates/312.md)
-       * 3.2
+       * [3.2](updates/32.md)
 
