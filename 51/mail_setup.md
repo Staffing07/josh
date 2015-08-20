@@ -9,3 +9,8 @@ Still you need to set **sender name and email** details in
 If you are testing locally or don't want to send any mails, then please set <code>'pretend' => true,</code> in <code>config/mail.php</code> at bottom of the page.
 
 
+---
+
+
+
+
