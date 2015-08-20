@@ -67,6 +67,15 @@ In the <code>$aliases</code> array add the following facade
 'Sentinel'   => 'Cartalyst\Sentinel\Laravel\Facades\Sentinel',
 ````
 
+Now we need to publish config, so that you can edit configuration, if needed
+
+Excecute following command in command prompt/terminal
+```
+
+php artisan vendor:publish
+
+```
+
 Now we need to add user, groups etc tables to database, to do so in your command prompt, execute following code
 
 ```
@@ -78,14 +87,7 @@ php artisan migrate
 Note: please check all files in <code>database\migrations</code> to know what fields are being added.
 
 
-Now we need to publish config, so that you can edit configuration, if needed
 
-Excecute following command in command prompt/terminal
-```
-
-php artisan vendor:publish
-
-```
 
 please headover to [sentinel website](https://cartalyst.com/manual/sentinel) to learn more about it
 
@@ -113,7 +115,7 @@ As database tables have been setup, we need to add admin user to be able to logi
 Run following command in your command prompt
 
 ```
-php artisan db:seed
+php artisan db:seed --class=AdminSeeder
 
 ```
 
