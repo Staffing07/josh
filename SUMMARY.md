@@ -19,6 +19,7 @@
    * [Installation](51/installation.md)
        * [Database setup](51/database_setup.md)
        * [Permissions](51/permissions.md)
+       * Mail Setup
 * [Laravel 5 Version](laravel_5_version.md)
    * [Installation](installation.md)
        * [Database & Environment setup](database_&_environment_setup.md)
