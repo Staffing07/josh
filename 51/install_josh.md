@@ -10,8 +10,7 @@ We need to add those packages to <code>composer.json</code>, publish vendor conf
 | -- | -- | -- |
 | cartalyst/sentinel | [repo](https://github.com/cartalyst/sentinel) | [manual](https://cartalyst.com/manual/sentinel/2.0) |
 | laravelcollective/html | [repo](https://github.com/LaravelCollective/html) | [manual](http://laravelcollective.com/docs/5.1/html) |
-| cviebrock/eloquent-sluggable | [repo](https://github.com/cviebrock/eloquent-sluggable) | [manual](https://github.com/cviebrock/eloquent-sluggable/blob/master/README.md) |
-| cviebrock/eloquent-taggable | [repo](https://github.com/cviebrock/eloquent-taggable) | [manual](https://github.com/cviebrock/eloquent-taggable/blob/master/README.md) |
+
 
 
 ---
@@ -38,9 +37,7 @@ Now add above mentioned packages in ```composer.json``` in ```require``` array
 
 ````
 "cartalyst/sentinel": "2.0.*",
-"laravelcollective/html": "5.1.*",
-"cviebrock/eloquent-sluggable": "dev-master",
-"cviebrock/eloquent-taggable": "dev-master"
+"laravelcollective/html": "5.1.*"
 ````
 
 ** Add service providers **
@@ -50,8 +47,6 @@ Open <code>config/app.php</code> and add following lines in the <code>$providers
 ````php
 Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
 Collective\Html\HtmlServiceProvider::class,
-Cviebrock\EloquentSluggable\SluggableServiceProvider::class,
-Cviebrock\EloquentTaggable\ServiceProvider::class,
 ````
 
 In the <code>$aliases</code> array add  following facades
@@ -69,8 +64,7 @@ now we need to publish vendor files so that they will publish config files, migr
 
 Excecute following command in command prompt/terminal
 ```
-php artisan sluggable:table blogs
-php artisan taggable:table
+
 php artisan vendor:publish
 
 ```
