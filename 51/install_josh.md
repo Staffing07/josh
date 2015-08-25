@@ -43,6 +43,10 @@ Now add above mentioned packages in ```composer.json``` in ```require``` array
 "cviebrock/eloquent-taggable": "dev-master"
 ````
 
+** update vendors **
+
+now hit <code>composer update</code> in terminal to download above packages.
+
 ** Add service providers **
 
 Open <code>config/app.php</code> and add following lines in the <code>$providers</code> array 
