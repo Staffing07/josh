@@ -19,6 +19,7 @@ Even thought we haven't included these packages, these will save lot of your tim
 |[Faker](https://github.com/fzaninotto/Faker) | Helpful for seeding dummy data |
 | [Laravel Datatables](https://github.com/yajra/laravel-datatables) | Server side datatables handing with ajax |
 | [Intervention Image](https://github.com/Intervention/image) | Image processing, thumbnails etc |
+| [Laravel Fullcalendar](https://github.com/maddhatter/laravel-fullcalendar) | Full calendar for laravel |
 
 There are many useful packages exists for laravel, whom you can find at
 
