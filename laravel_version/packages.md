@@ -20,6 +20,7 @@ Even thought we haven't included these packages, these will save lot of your tim
 | [Laravel Datatables](https://github.com/yajra/laravel-datatables) | Server side datatables handing with ajax |
 | [Intervention Image](https://github.com/Intervention/image) | Image processing, thumbnails etc |
 | [Laravel Fullcalendar](https://github.com/maddhatter/laravel-fullcalendar) | Full calendar for laravel |
+| [Migration Generator](https://github.com/barryvdh/laravel-migration-generator) | Generate migrations from existing tables |
 
 There are many useful packages exists for laravel, whom you can find at
 
