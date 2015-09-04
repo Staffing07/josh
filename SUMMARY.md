@@ -51,5 +51,5 @@
        * [3.1.1](updates/311.md)
        * [3.1.2](updates/312.md)
        * [3.2](updates/32.md)
-       * 3.2.1
+       * [3.2.1](updates/321.md)
 
