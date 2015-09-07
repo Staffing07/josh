@@ -21,6 +21,7 @@ Even thought we haven't included these packages, these will save lot of your tim
 | [Intervention Image](https://github.com/Intervention/image) | Image processing, thumbnails etc |
 | [Laravel Fullcalendar](https://github.com/maddhatter/laravel-fullcalendar) | Full calendar for laravel |
 | [Migration Generator](https://github.com/Xethron/migrations-generator) | Generate migrations from existing tables |
+| [searchable](https://github.com/nicolaslopezj/searchable) | Add search functionality on models |
 
 There are many useful packages exists for laravel, whom you can find at
 
