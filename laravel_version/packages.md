@@ -22,6 +22,7 @@ Even thought we haven't included these packages, these will save lot of your tim
 | [Laravel Fullcalendar](https://github.com/maddhatter/laravel-fullcalendar) | Full calendar for laravel |
 | [Migration Generator](https://github.com/Xethron/migrations-generator) | Generate migrations from existing tables |
 | [searchable](https://github.com/nicolaslopezj/searchable) | Add search functionality on models |
+| [Europe Vat](https://github.com/mpociot/vat-calculator) | All stuff related to EU MOSS |
 
 There are many useful packages exists for laravel, whom you can find at
 
