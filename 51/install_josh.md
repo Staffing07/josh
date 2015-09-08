@@ -12,6 +12,7 @@ We need to add those packages to <code>composer.json</code>, publish vendor conf
 | laravelcollective/html | [repo](https://github.com/LaravelCollective/html) | [manual](http://laravelcollective.com/docs/5.1/html) |
 | cviebrock/eloquent-sluggable | [repo](https://github.com/cviebrock/eloquent-sluggable) | [manual](https://github.com/cviebrock/eloquent-sluggable/blob/master/README.md) |
 | cviebrock/eloquent-taggable | [repo](https://github.com/cviebrock/eloquent-taggable) | [manual](https://github.com/cviebrock/eloquent-taggable/blob/master/README.md) |
+| yajra/laravel-datatables-oracle | [repo](https://github.com/yajra/laravel-datatables) | [manual](http://datatables.yajrabox.com/) |
 
 
 ---
@@ -40,7 +41,8 @@ Now add above mentioned packages in ```composer.json``` in ```require``` array
 "cartalyst/sentinel": "2.0.*",
 "laravelcollective/html": "5.1.*",
 "cviebrock/eloquent-sluggable": "dev-master",
-"cviebrock/eloquent-taggable": "dev-master"
+"cviebrock/eloquent-taggable": "dev-master",
+"yajra/laravel-datatables-oracle": "~5.0"
 ````
 
 ** update vendors **
@@ -56,6 +58,7 @@ Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
 Collective\Html\HtmlServiceProvider::class,
 Cviebrock\EloquentSluggable\SluggableServiceProvider::class,
 Cviebrock\EloquentTaggable\ServiceProvider::class,
+yajra\Datatables\DatatablesServiceProvider::class
 ````
 
 In the <code>$aliases</code> array add  following facades
@@ -65,6 +68,7 @@ In the <code>$aliases</code> array add  following facades
 'Sentinel'   => Cartalyst\Sentinel\Laravel\Facades\Sentinel::class,
 'Form' => Collective\Html\FormFacade::class,
 'Html' => Collective\Html\HtmlFacade::class,
+'Datatables' => yajra\Datatables\Datatables::class,
 ````
 
 ** publish vendors **
