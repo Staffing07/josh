@@ -9,6 +9,10 @@ app/Http/routes.php```
 
 Check all other files yourself and copy only required files.
 
+#### updating autoload
+composer should know some new files were added so that it can autoload them
+
+hit ````composer dump-autoload```` in terminal for that
 
 ---
 
