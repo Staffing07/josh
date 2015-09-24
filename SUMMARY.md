@@ -3,7 +3,7 @@
 * [Introduction](README.md)
    * [Philosophy](philosophy.md)
    * [Contribution](contribution.md)
-   * Videos
+   * [Videos](videos.md)
 * [HTML Version](html_version/README.md)
    * [Layout](html_version/layout.md)
        * [Header](html_version/header.md)
