@@ -25,6 +25,7 @@
        * [Install Josh](51/install_josh.md)
    * [Customize whoops,...](customize_whoops.md)
    * usage
+       * change skin
 * [Laravel 5 Version](laravel_5_version.md)
    * [Installation](installation.md)
        * [Database & Environment setup](database_&_environment_setup.md)
