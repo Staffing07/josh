@@ -112,7 +112,7 @@ replace it with
 
 ````
 'model' => 'App\User',
-```
+````
 
 ** Add admin user**
 
@@ -129,6 +129,17 @@ php artisan db:seed --class=AdminSeeder
 
 Optional: If you wish to use a different username or password, please open <code>database\seeds\AdminSeeder.php</code> and edit values around lines 14-18
 
+** Register middlewares **
+
+Josh comes with two middles and you need to register them, to do so
+
+open ````app/Http/Kernel.php```` and in ````$routeMiddleware```` array
+
+add the following
+````
+'SentinelUser' => \App\Http\Middleware\SentinelUser::class,
+'SentinelAdmin' => \App\Http\Middleware\SentinelAdmin::class,
+````
 
 ** upload directory permissions **
 
