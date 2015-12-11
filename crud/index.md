@@ -22,6 +22,25 @@ open config/app.php and in providers array, add
     'App\Providers\JoshCrudGeneratorServiceProvider',
 ````
 
+**register custom_routes.php**
+
+since we store our routes in custom_routes.php, we need to add it in route server provide
+
+open app/Providers/RouteServiceProvider.php
+
+in ````map```` function add ````require app_path('Http/custom_routes.php');```` before default roues
+
+so **finally** ````map```` method  should look like
+
+````
+public function map(Router $router)
+    {
+        $router->group(['namespace' => $this->namespace], function ($router) {
+            require app_path('Http/custom_routes.php');
+            require app_path('Http/routes.php');
+        });
+    }
+````    
 
 
 #### Usage
