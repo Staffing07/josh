@@ -153,6 +153,8 @@ to do so, please run following command in your command prompt/terminal
 chmod 775 public/uploads/users
 chmod 775 public/uploads/blog
 ```
+
+If you want to make use of CRUD provided with Josh, please follow [this tutorial](https://lorvent.gitbooks.io/josh/content/crud/index.html)
 ###Congratulations! You are ready to rock the world!!
 
 
