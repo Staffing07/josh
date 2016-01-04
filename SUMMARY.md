@@ -49,6 +49,7 @@
 * [CRUD](crud/index.md)
    * [crud](crud.md)
 * [Updates](updates/index.md)
+   * [4.0](updates/40md.md)
    * [3.0](30.md)
        * [3.0.1](301.md)
        * [3.1](updates/31.md)
@@ -62,5 +63,4 @@
        * [3.2.5](updates/325.md)
        * [3.2.5.1](updates/3251.md)
        * [3.2.6](updates/326.md)
-   * [4.0](updates/40md.md)
 
