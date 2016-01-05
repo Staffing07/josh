@@ -10,7 +10,7 @@ Josh doesn't ship with whole laravel files, so you need to intall laravel yourse
 
 You can use any of methods mentioned in [laravel website](http://laravel.com/docs/5.1/installation)
 
-our preferred method is to install using composer by executing ```composer create-project laravel/laravel your_project_name```
+our preferred method is to install using composer by executing ```composer create-project laravel/laravel:5.1 your_project_name```
 
 #### Upgrading from Laravel 5
 
