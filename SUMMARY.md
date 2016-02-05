@@ -66,4 +66,5 @@
        * [3.2.5](updates/325.md)
        * [3.2.5.1](updates/3251.md)
        * [3.2.6](updates/326.md)
+* GULP
 
