@@ -27,3 +27,10 @@ in project folder, using terminal run ```npm install```
 
 If you did all these steps, now you can freely customize JOSH as per your needs.
 
+## Learning Resources
+
+If you need help with gulp, i recommend below links
+* http://laravel.com/docs/elixir
+* https://leveluptuts.com/tutorials/learning-gulp
+* http://automateyourworkflow.com/
+* https://laracasts.com/series/painless-builds-with-laravel-elixir
