@@ -65,5 +65,5 @@
        * [3.2.5.1](updates/3251.md)
        * [3.2.6](updates/326.md)
 * Laravel 5.2
-   * Instllating JOSH
+   * [Instllating JOSH](52/instllating_josh.md)
 
