@@ -16,6 +16,8 @@
    * [Plugins Used](html_version/plugins_used.md)
    * [Images Used](html_version/images_used.md)
    * [Fonts Used](html_version/fonts_used.md)
+* Laravel 5.2
+   * [Instllating JOSH](52/instllating_josh.md)
 * [Laravel 5.1](laravel_51.md)
    * [Installation](51/installation.md)
        * [Database setup](51/database_setup.md)
@@ -64,6 +66,4 @@
        * [3.2.5](updates/325.md)
        * [3.2.5.1](updates/3251.md)
        * [3.2.6](updates/326.md)
-* Laravel 5.2
-   * [Instllating JOSH](52/instllating_josh.md)
 
