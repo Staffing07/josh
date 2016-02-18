@@ -13,6 +13,15 @@ Using CRUD You can generate
 
 or **ALL** of them
 
+
+#### Video
+
+Watch below video for a good demo
+
+{% youtube %}https://www.youtube.com/watch?v=9bZkp7q19f0{% endyoutube %}
+
+
+
 #### Installation
 
 all files are provided in downloaded folder.
