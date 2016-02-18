@@ -1,8 +1,11 @@
 {
-    "plugins": ["ga"],
+    "plugins": [
+        "ga",
+        "youtube"
+    ],
     "pluginsConfig": {
         "ga": {
             "token": "UA-53569782-1"
         }
-    }  
+    }
 }
