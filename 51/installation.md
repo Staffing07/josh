@@ -12,6 +12,8 @@ You can use any of methods mentioned in [laravel website](http://laravel.com/doc
 
 our preferred method is to install using composer by executing ```composer create-project laravel/laravel:5.1 your_project_name```
 
+If you are using phpstorm, then follow this [tutorial](http://laraveldaily.com/phpstorm-easily-create-new-laravel-project/) to install it easily.
+
 #### Upgrading from Laravel 5
 
 Please follow [official guidelines](http://laravel.com/docs/5.1/upgrade#upgrade-5.1.0)
