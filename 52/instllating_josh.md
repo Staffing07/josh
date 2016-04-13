@@ -1,4 +1,4 @@
-# Instllating JOSH
+# Installing JOSH
 
 Please follow installation steps mentioned in "Laravel 5.1" but with following change in composer.
 
