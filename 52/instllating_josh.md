@@ -11,11 +11,6 @@ Now, instead of ~~```"laravelcollective/html": "5.1.*",```~~
 
 Use ```"laravelcollective/html": "5.2.*",```
 
-### eloquent-taggable
-
-Instead of ~~```"cviebrock/eloquent-taggable": "dev-master",```~~
-
-Use ```"cviebrock/eloquent-taggable": "dev-laravel-5-refactor",```
 
 Finally your composer.json, ```require``` array should have these
 
@@ -23,7 +18,7 @@ Finally your composer.json, ```require``` array should have these
 "laravelcollective/html": "5.2.",
 "cartalyst/sentinel": "2.0.",
 "cviebrock/eloquent-sluggable": "dev-master",
-"cviebrock/eloquent-taggable": "dev-laravel-5-refactor",
+"cviebrock/eloquent-taggable": "~2.0.0",
 "yajra/laravel-datatables-oracle": "~5.0"
 ```
 
