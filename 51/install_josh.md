@@ -56,7 +56,7 @@ Open <code>config/app.php</code> and add following lines in the <code>$providers
 ````php
 Cartalyst\Sentinel\Laravel\SentinelServiceProvider::class,
 Collective\Html\HtmlServiceProvider::class,
-Cviebrock\EloquentSluggable\SluggableServiceProvider::class,
+Cviebrock\EloquentSluggable\ServiceProvider::class,
 Cviebrock\EloquentTaggable\ServiceProvider::class,
 yajra\Datatables\DatatablesServiceProvider::class
 ````
