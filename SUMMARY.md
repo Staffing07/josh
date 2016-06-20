@@ -59,7 +59,7 @@
        * [4.2](updates/42.md)
        * [4.3](updates/43.md)
        * [4.3.1](updates/431.md)
-       * 4.3.2
+       * [4.3.2](updates/432.md)
    * [3.0](30.md)
        * [3.0.1](301.md)
        * [3.1](updates/31.md)
