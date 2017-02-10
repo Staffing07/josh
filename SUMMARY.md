@@ -53,5 +53,4 @@
 * [CRUD](crud/index.md)
   * [crud](crud.md)
 * [GULP](gulp/index.md)
-* Laravel 5.4
 
