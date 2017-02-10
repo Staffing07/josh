@@ -53,4 +53,5 @@
 * [CRUD](crud/index.md)
   * [crud](crud.md)
 * [GULP](gulp/index.md)
+* [UPDATES](updates/index.md)
 
