@@ -17,7 +17,7 @@
   * [Images Used](html_version/images_used.md)
   * [Fonts Used](html_version/fonts_used.md)
 * [Laravel 5.4](laravel-5.4.md)
-* [Laravel 5.2](52/index.md)
+* [Laravel 5.2, 5.3](52/index.md)
   * [Installating JOSH](52/instllating_josh.md)
   * [Fresh Installation](52/fresh_installation.md)
 * [Laravel 5.1](laravel_51.md)
