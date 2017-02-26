@@ -9,9 +9,9 @@ The zip file contains all laravel files integrated with josh, however you need t
 #### permissions
 
 ```
-chmod -R 755 storage
+chmod -R 775 storage
 
-chmod 755 bootstrap/cache
+chmod 775 bootstrap/cache
 ```
 
 If you are on linux/ mac you can run below command to chown it.
