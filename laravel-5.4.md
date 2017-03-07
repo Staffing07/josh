@@ -52,7 +52,7 @@ you can read more about it [here](https://laravel.com/docs/5.4/mix)
 
 install local packages
 
-`npm install`
+`yarn install`
 
 get bower components
 
