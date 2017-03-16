@@ -34,9 +34,7 @@ open `.env` and modify database details with yours
 
 #### compile assets
 
-> If you don't have good knowledge on nodejs and npm, you can copy public folder files from codecanyon's downloaded files
-
-**Note : **The above step is completely optional , if you are not comfortable with this, you can skip it and perform the below steps, still it works fine.
+> If you don't have good knowledge on nodejs and npm, you can copy public folder files from codecanyon's downloaded files.
 
 Make sure you have [nodejs](https://nodejs.org) installed in your system
 
