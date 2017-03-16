@@ -48,7 +48,7 @@ To check check for  nodejs version
 
 `nodejs -v`
 
-install dependencies using  yarn
+install local packages
 
 `yarn install`
 
