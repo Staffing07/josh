@@ -75,4 +75,6 @@
     * [3.2.5](updates/325.md)
     * [3.2.5.1](updates/3251.md)
     * [3.2.6](updates/326.md)
+* [Laravel Spark Skin](laravel-spark-skin.md)
+  * [Spark Installation](laravel-spark-skin/spark-installation.md)
 
