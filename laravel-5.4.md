@@ -34,11 +34,7 @@ open `.env` and modify database details with yours
 
 #### compile assets
 
-> If you don't have good knowledge on nodejs and npm, you can copy public folder files from codecanyon's downloaded files
-
-Make sure you have [nodejs](https://nodejs.org) installed in your system
-
-
+Make sure you have [nodejs](https://nodejs.org) installed in your system with minimum version 6.10.0 , you can check installed version by running `node -V` command in terminal. If you are having older version, please install latest version from [nodejs.org](http://nodejs.org/)
 
 from 5.4 onwards, Laravel team decided to move to webpack from gulp
 
@@ -47,8 +43,6 @@ so assets compilation differs a bit.
 They introduced a new npm package for webpack called `mix`
 
 you can read more about it [here](https://laravel.com/docs/5.4/mix)
-
-
 
 install local packages
 
@@ -61,6 +55,8 @@ get bower components
 move assets to public
 
 `npm run dev`
+
+** Note:** If bower gives warning that you are running as administrator, please run the command `bower install --allow-root`
 
 # Congratulations
 

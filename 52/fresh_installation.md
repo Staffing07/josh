@@ -44,13 +44,9 @@ install gulp, bower globally
 
 `npm install -g gulp bower`
 
-To check check for  nodejs version
-
-`nodejs -v`
-
 install local packages
 
-`yarn install`
+`npm install`
 
 install sass globally
 
@@ -63,10 +59,6 @@ get bower components
 move assets to public
 
 `gulp`
-
-#### Note:
-
-Eventhough you can run `npm install` we suggest  you to run `yarn install` since the package contains `yarn.lock` file which lets you get the exact version of packages that we have used.
 
 # Congratulations
 
