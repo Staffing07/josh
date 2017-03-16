@@ -28,7 +28,7 @@
     * [Copying Josh Files](51/copying_josh_files.md)
     * [Install Josh](51/install_josh.md)
   * [Customize whoops,...](customize_whoops.md)
-  * usage
+  * [usage](51/usage.md)
     * [change skin](usage/change_skin.md)
 * [Laravel 5 Version](laravel_5_version.md)
   * [Installation](installation.md)
