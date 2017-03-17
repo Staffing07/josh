@@ -38,11 +38,11 @@ open `.env` and modify database details with yours
 
 **Note : **The above step is completely optional , if you are not comfortable with this, you can skip it and perform the below steps, still it works fine.
 
-Make sure you have [nodejs](https://nodejs.org) installed in your system with minimum version `6.10.0 `,
+Make sure you have [nodejs](https://nodejs.org) installed in your system with minimum version `6.10.0`,
 
- you can check installed version by running `node -V` command in terminal.
+you can check installed version by running `node -v` command in terminal.
 
- If you are having older version, please install latest version from [nodejs.org](http://nodejs.org/)
+If you are having older version, please install latest version from [nodejs.org](http://nodejs.org/)
 
 from 5.4 onwards, Laravel team decided to move to webpack from gulp
 

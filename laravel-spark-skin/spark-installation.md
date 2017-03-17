@@ -1,10 +1,32 @@
 ### Spark Installation
 
+Make sure you have [nodejs](https://www.gitbook.com/book/lorvent/josh/edit#) installed in your system with minimum version`6.10.0`,
+
+you can check installed version by running`node -v`command in terminal.
+
+If you are having older version, please install latest version from [nodejs.org](https://www.gitbook.com/book/lorvent/josh/edit#)
+
+from 5.4 onwards, Laravel team decided to move to webpack from gulp
+
+so assets compilation differs a bit.
+
+They introduced a new npm package for webpack called`mix`
+
+you can read more about it [here](https://www.gitbook.com/book/lorvent/josh/edit#)
+
+install local packages
+
+`yarn install`
+
+move assets to public
+
+`npm run dev`
+
 #### 1\) Installation of spark :
 
 Initially, you need  to Install the Laravel Spark, For the installation of Laravel spark, Please follow the official guide, the link for which is provided below
 
-[https://spark.laravel.com/docs/4.0/installation](https://spark.laravel.com/docs/4.0/installation). 
+[https://spark.laravel.com/docs/4.0/installation](https://spark.laravel.com/docs/4.0/installation).
 
 #### 2\) Applying the Josh skin:
 
