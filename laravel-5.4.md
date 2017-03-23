@@ -44,6 +44,17 @@ you can check installed version by running `node -v` command in terminal.
 
 If you are having older version, please install latest version from [nodejs.org](http://nodejs.org/)
 
+For laravel 5.4 , the minimum version of php required is `5.6.4` and
+
+the following php extensions are rquired
+
+* PHP &gt;= 5.6.4
+* OpenSSL PHP Extension
+* PDO PHP Extension
+* Mbstring PHP Extension
+* Tokenizer PHP Extension
+* XML PHP Extension
+
 from 5.4 onwards, Laravel team decided to move to webpack from gulp
 
 so assets compilation differs a bit.
