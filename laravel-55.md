@@ -65,14 +65,6 @@ the following php extensions are rquired
 * Tokenizer PHP Extension
 * XML PHP Extension
 
-from 5.4 onwards, Laravel team decided to move to webpack from gulp
-
-so assets compilation differs a bit.
-
-They introduced a new npm package for webpack called `mix`
-
-you can read more about it [here](https://laravel.com/docs/5.5/mix)
-
 install local packages
 
 `yarn install`
