@@ -16,6 +16,7 @@
   * [Plugins Used](html_version/plugins_used.md)
   * [Images Used](html_version/images_used.md)
   * [Fonts Used](html_version/fonts_used.md)
+* [Laravel 5.5](laravel-55.md)
 * [Laravel 5.4](laravel-5.4.md)
 * [Laravel 5.2, 5.3](52/index.md)
   * [Installating JOSH](52/instllating_josh.md)
@@ -75,6 +76,5 @@
     * [3.2.5](updates/325.md)
     * [3.2.5.1](updates/3251.md)
     * [3.2.6](updates/326.md)
-* [Laravel Spark Skin](laravel-spark-skin.md)
-  * [Spark Installation](laravel-spark-skin/spark-installation.md)
+* Laravel 5.5
 
