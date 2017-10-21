@@ -1,13 +1,27 @@
 # CRUD
 
-you can generate CRUD using below command
+You can generate CRUD using GUI Builder without run a single command.
 
-for example: to generate books model with title, author, description fields
+If you want to use GUI builder simply fill the form i.e model name, table name and table fields.
 
-please run
+## Folder Permissions
+
+Give write permissions to models, controllers, views, routes and migrations
 
 ```\`php
-php artisan crud:gen book --fields="string:title,string:author,text:description"
+chmod -R 777 ./routes/web_builder.php
+
+chmod -R 777 ./routes/web.php
+
+chmod -R 777 ./resources/views    
+
+chmod -R 777 ./app/Models/    
+
+chmod -R 777 ./app/Http    
+
+chmod -R 777 ./database/    
+
+
 ```
 
 If you want just model and controller then execute
@@ -32,14 +46,9 @@ all others will be treated as varchar in database and respected field type will 
 
 ex: if you pass 'radio' then in views, input type="radio" will be created
 
-## other field types
+## 
 
-we will be updating CRUD continously and you can expect other field types in coming days
-
-## planned field types
-
-* select2
-* icheck
+## 
 
 
 

@@ -53,6 +53,7 @@
   * [Hosting](hosting.md)
 * [CRUD](crud/index.md)
   * [crud](crud.md)
+* [GUI CRUD](gui-crud.md)
 * [GULP](gulp/index.md)
 * [Updates](updates/index.md)
   * [5.0](updates/5.0.md)
