@@ -1,6 +1,6 @@
 # GUI Builder
 
-You can generate CRUD using GUI Builder without run a single command. you want to use GUI builder simply fill the form 
+You can generate CRUD using GUI Builder without run a single command. you want to use GUI builder simply fill the form
 
 ex: model name, table name and table fields.
 
@@ -9,9 +9,7 @@ ex: model name, table name and table fields.
 Give write permissions to models, controllers, views, routes and migrations
 
 ```\`php
-chmod -R 777 ./routes/web_builder.php
-
-chmod -R 777 ./routes/web.php
+chmod -R 777 ./routes/
 
 chmod -R 777 ./resources/views    
 
