@@ -1,38 +1,31 @@
 # GUI Builder
 
-You can generate CRUD using GUI Builder without run a single command. you want to use GUI builder simply fill the form
-
-ex: model name, table name and table fields.
+Josh comes with GUI based crud builder, using which you can generated new CRUD files with just some clicks.
 
 ## folder Permissions
 
 Give write permissions to models, controllers, views, routes and migrations
 
 ```\`php
-chmod -R 777 ./routes/
+chmod -R 775 routes/
 
-chmod -R 777 ./resources/views    
+chmod -R 775 resources/views    
 
-chmod -R 777 ./app/Models/    
+chmod -R 775 app/Models/    
 
-chmod -R 777 ./app/Http    
+chmod -R 775 app/Http    
 
-chmod -R 777 ./database/
+chmod -R 775 database/
 ```
 
-## available field types
+**Note: **if you get any permission issues change permissions chmod -R 775  to chmod -R 777
 
-* string - this will create a varchar in database, input field for views
-* text - this will create a text in daabase and textarea for views
-* password - this will create varchar in database, password field for views
-* email - this will create varchar in database, email field for views
-* radio
-* checkbox
-* file
+{% youtube src="https://www.youtube.com/watch?v=kJzurELXJwA" %}{% endyoutube %}
 
-all others will be treated as varchar in database and respected field type will be created for views
 
-ex: if you pass 'radio' then in views, input type="radio" will be created
+
+  
+
 
 ## 
 
