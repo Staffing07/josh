@@ -1,4 +1,4 @@
-Note: We are removed this terminal based CRUD Builder. We moved to GUI builder. For GUI documentation [click here](https://www.gitbook.com/book/lorvent/josh/edit#/edit/master/gui-crud.md?_k=m4emhc) 
+**Note:** We are removed this terminal based CRUD Builder. We moved to GUI builder. For GUI documentation [click here](https://www.gitbook.com/book/lorvent/josh/edit#/edit/master/gui-crud.md?_k=m4emhc) 
 #CRUD
 
 CRUD generator is a new feature to JOSH
