@@ -1,10 +1,10 @@
-# CRUD
+# GUI Builder
 
-You can generate CRUD using GUI Builder without run a single command.
+You can generate CRUD using GUI Builder without run a single command. you want to use GUI builder simply fill the form 
 
-If you want to use GUI builder simply fill the form i.e model name, table name and table fields.
+ex: model name, table name and table fields.
 
-## Folder Permissions
+## folder Permissions
 
 Give write permissions to models, controllers, views, routes and migrations
 
@@ -19,18 +19,8 @@ chmod -R 777 ./app/Models/
 
 chmod -R 777 ./app/Http    
 
-chmod -R 777 ./database/    
-
-
+chmod -R 777 ./database/
 ```
-
-If you want just model and controller then execute
-
-```\`php
-php artisan crud:gen book
-```
-
-when you don't pass fields, it will just create model and controller
 
 ## available field types
 
