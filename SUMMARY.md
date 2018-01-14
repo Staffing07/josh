@@ -80,3 +80,5 @@
   * [3.2.6](updates/326.md)
 * [Laravel 5.5](laravel-55.md)
 
+## Customization
+
