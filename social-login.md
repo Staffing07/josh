@@ -2,11 +2,11 @@
 
 We provide the social login for Facebook, Gmail and LinkedIn. For that we have to provide id, secret key and callback url in the .env file.
 
-**For Facebook**, register your app [here](https://developers.facebook.com/apps)  then click on settings on sidenav.
+## **For Facebook**, register your app [here](https://developers.facebook.com/apps)  then click on settings on sidenav.
 
 * From the basic settings you will be able to    access your `API key` and `API secret`.
 * Also, click the Add Platform button below the settings configuration. Select **Website** in the platform dialog then    enter the    website    URL, in our case it is [http://clean.lorvent.in/](http://clean.lorvent.in/)
-* Set the App Domains    to your site url, privacy policy and terms of    service url\([http://clean.lorvent.in\](http://clean.lorvent.in\)\) and choose    the category    as Business then save the settings.
+* Set the App Domains    to your site url, privacy policy and terms of    service url\([http://clean.lorvent.in\](http://clean.lorvent.in%29\) and choose    the category    as Business then save the settings.
 * Then Click on App Review tab    -&gt;Choose Yes For Make Your Site Public.
 * Now Click the Add Product tab on    settings    from sidenav and add the facebook login.
 * Next Click on Facebook Login -&gt;Client    OAuth Settings Section select yes    for all except Use Strict Mode    For Redirect    URLS.    and    Enter Valid OAtuth Redirect URLS\(~~[http://clean.lorvent.in/auth/facebook/callback/](http://clean.lorvent.in/auth/facebook/callback/)  ~~choose **yes **for login from devices.
@@ -79,7 +79,7 @@ For the Website URL field    enter the following URL:
 Enter the following URL in the    Authorized Redirect URLs field and click Add:
 
 ```
-https://YOUR\_AUTH0\_DOMAIN/login/callback    \(~~http://clean.dev/auth/linkedin/callback~~\)    
+https://YOUR\_AUTH0\_DOMAIN/login/callback    \(~~http://clean.dev/auth/linkedin/callback~~\)
 ```
 
 Next click on **Update **button.
