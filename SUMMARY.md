@@ -79,6 +79,7 @@
 * [5.0](updates/5.0.md)
 * [5.8](updates/58.md)
 * [Laravel 5.5](laravel-55.md)
+* [Social Login](social-login.md)
 
 ## Customization
 
