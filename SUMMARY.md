@@ -80,6 +80,7 @@
 * [5.8](updates/58.md)
 * [Laravel 5.5](laravel-55.md)
 * [Social Login](social-login.md)
+* [Starter Kit](starter-kit.md)
 
 ## Customization
 
