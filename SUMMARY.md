@@ -81,6 +81,7 @@
 * [Laravel 5.5](laravel-55.md)
 * [Social Login](social-login.md)
 * [Starter Kit](starter-kit.md)
+* [Laravel 5.6](laravel-56.md)
 
 ## Customization
 
