@@ -16,7 +16,5 @@ Step2: You can see the screen like this
 
 Here you need to write your domain name in the label field \(ex: For virtual host [http://josh56.test](http://josh56.test%29%29\) then choose the type of reCAPTCHA as "**reCAPTCHA v2**".
 
-Step3: Here you can see the DOMAIN Text field. In this field you need to give the domain name\(Ex: For virtual host [http://josh56.test](http://josh56.test%29%29\)\)
-
-
+Step3: Here you can see the DOMAIN Text field. In this field you need to give the domain name\(Ex: For virtual host [http://josh56.test](http://josh56.test%29%29%29\) \)
 
