@@ -4,7 +4,7 @@ reCAPTCHA is a free service that protects your website from spam and abuse. reCA
 
 If you need Google Recaptcha you have to provide `GOOGLE_RECAPTCHA_SECRET` and  `GOOGLE_RECAPTCHA_KEY in .env file`
 
-**Steps to be followed for getting `GOOGLE_RECAPTCHA_SECRET and GOOGLE_RECAPTCHA_KEY:`**
+**Steps to be followed for getting **`GOOGLE_RECAPTCHA_SECRET and GOOGLE_RECAPTCHA_KEY:`
 
 Step1: Open this link in your browser [https://www.google.com/recaptcha/intro/android.html ](https://www.google.com/recaptcha/intro/android.html)and click the get reCAPTCHA button which is located at right top corner
 
@@ -14,9 +14,7 @@ Step2: You can see the screen like this
 | :--- |
 
 
-Here you need to write your domain name in the label field \(ex: For virtual host http://josh56.test\) then choose the type of reCAPTCHA as "**reCAPTCHA v2**" then click on register button.
+Here you need to write your domain name in the label field \(ex: For virtual host [http://josh56.test\](http://josh56.test\)\) then choose the type of reCAPTCHA as "**reCAPTCHA v2**".
 
-Step3:
-
-
+Step3: Here you can see the DOMAIN Text field. In this field you need to give the domain name
 
