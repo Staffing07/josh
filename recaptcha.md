@@ -1,7 +1,3 @@
-|  |  |
-| :--- | :--- |
-|  |  |
-
 ## Recaptcha
 
 reCAPTCHA is a free service that protects your website from spam and abuse. reCAPTCHA offers more than just spam protection. Every time our CAPTCHAs are solved, that human effort helps digitize text, annotate images, and build machine learning datasets. This in turn helps preserve books, improve maps, and solve hard AI problems.
@@ -30,5 +26,5 @@ Step5: Then you can see the **Site key and Secret key **on your screen as shown 
 | :--- |
 
 
-Step 6: Copy those keys into the .env file 
+Step 6: Copy those keys into the .env file
 
