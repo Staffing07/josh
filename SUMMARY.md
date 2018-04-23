@@ -82,6 +82,7 @@
 * [Social Login](social-login.md)
 * [Starter Kit](starter-kit.md)
 * [Laravel 5.6](laravel-56.md)
+* [Recaptcha](recaptcha.md)
 
 ## Customization
 
