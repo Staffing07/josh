@@ -16,6 +16,7 @@
   * [Plugins Used](html_version/plugins_used.md)
   * [Images Used](html_version/images_used.md)
   * [Fonts Used](html_version/fonts_used.md)
+* [Laravel 5.6](laravel-56.md)
 * [Laravel 5.5](laravel-55.md)
 * [Laravel 5.4](laravel-5.4.md)
 * [Laravel 5.2, 5.3](52/index.md)
@@ -78,9 +79,7 @@
   * [4.3.2](updates/432.md)
 * [5.0](updates/5.0.md)
 * [5.8](updates/58.md)
-* [Laravel 5.5](laravel-55.md)
 * [Social Login](social-login.md)
-* [Starter Kit](starter-kit.md)
 * [Laravel 5.6](laravel-56.md)
 * [Recaptcha](recaptcha.md)
 
