@@ -4,7 +4,8 @@
   * [Philosophy](philosophy.md)
   * [Contribution](contribution.md)
   * [Videos](videos.md)
-* [Laravel 5.6, 5.7](laravel-56.md)
+* [Laravel 5.7](laravel-57.md)
+* [Laravel 5.6](laravel-56.md)
 * [Laravel 5.5](laravel-55.md)
 * [Laravel 5.4](laravel-5.4.md)
 * [Laravel 5.2, 5.3](52/index.md)
@@ -42,7 +43,6 @@
   * [Hosting](hosting.md)
 * [CRUD](crud/index.md)
   * [crud](crud.md)
-* [GUI CRUD](gui-crud.md)
 * [GULP](gulp/index.md)
 * [HTML Version](html_version/README.md)
   * [Layout](html_version/layout.md)
@@ -80,7 +80,6 @@
 * [5.0](updates/5.0.md)
 * [5.8](updates/58.md)
 * [Social Login](social-login.md)
-* [Laravel 5.6](laravel-56.md)
 * [Recaptcha](recaptcha.md)
 
 ## Customization
