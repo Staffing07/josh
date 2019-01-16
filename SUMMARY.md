@@ -78,7 +78,6 @@
   * [4.3.1](updates/431.md)
   * [4.3.2](updates/432.md)
 * [5.0](updates/5.0.md)
-* [5.8](updates/58.md)
 * [Social Login](social-login.md)
 * [Recaptcha](recaptcha.md)
 
