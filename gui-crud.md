@@ -7,15 +7,17 @@ Josh comes with GUI based CRUD builder, using which you can generated new CRUD f
 Give write permissions to models, controllers, views, routes and migrations
 
 ```\`php
-chmod -R 775 routes
+chmod  775 routes
 
-chmod -R 775 resources/views    
+chmod  775 resources/views    
 
-chmod -R 775 app/Models/    
+chmod  775 app/Models/    
 
-chmod -R 775 app/Http    
+chmod  775 app/Http    
 
-chmod -R 775 database/migrations
+chmod  775 database/migrations
+
+chmod  775 app/Repositories
 ```
 
 **Note: **if you get any permission issues change permissions chmod -R 775  to chmod -R 777
