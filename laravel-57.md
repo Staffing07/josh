@@ -10,7 +10,7 @@ In order to use JOSH which is a developer oriented product, you should have basi
 
 **Windows Users** If you don't want to install all of them manually, please download [laragon](https://laragon.org/)
 
-##### Git 
+##### Git
 
 you can check if you have git by running `git --version` in terminal, if you don't have it...you can get it from git-scm.com
 
@@ -92,6 +92,7 @@ Still we need to get some keys and setup things to make sure josh is working pro
 #### Uploads folders permission
 
 we need to provide write permission to following folder
+
 ```
 public/uploads/blog
 
