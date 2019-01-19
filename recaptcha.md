@@ -6,7 +6,7 @@ If you need Google Recaptcha you have to provide `GOOGLE_RECAPTCHA_SECRET` and  
 
 **Steps to be followed for getting **`GOOGLE_RECAPTCHA_SECRET and GOOGLE_RECAPTCHA_KEY:`
 
-Step1: Open this link in your browser [https://www.google.com/recaptcha/intro/android.html ](https://www.google.com/recaptcha/intro/android.html)and click the get reCAPTCHA button which is located at right top corner
+Step1: Open this link in your browser [https://www.google.com/recaptcha/intro/android.html ](https://www.google.com/recaptcha/intro/android.html)and click the `admin console` button which is located at right top corner
 
 Step2: You can see the screen like this
 
