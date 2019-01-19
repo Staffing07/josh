@@ -12,7 +12,7 @@ In order to use JOSH which is a developer oriented product, you should have basi
 
 ##### Git 
 
-you can check if you have git by running `git -v` in terminal, if you don't have it...you can get it from git-scm.com
+you can check if you have git by running `git --version` in terminal, if you don't have it...you can get it from git-scm.com
 
 or on \*nix system, you can install by running `apt-get install git` command
 
