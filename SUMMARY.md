@@ -41,8 +41,7 @@
   * [Packages](laravel_version/packages.md)
   * [Learning Laravel](laravel_version/learning_laravel.md)
   * [Hosting](hosting.md)
-* [CRUD](crud/index.md)
-  * [crud](crud.md)
+* [GUI CRUD](gui-crud.md)
 * [GULP](gulp/index.md)
 * [HTML Version](html_version/README.md)
   * [Layout](html_version/layout.md)
@@ -80,6 +79,3 @@
 * [5.0](updates/5.0.md)
 * [Social Login](social-login.md)
 * [Recaptcha](recaptcha.md)
-
-## Customization
-
