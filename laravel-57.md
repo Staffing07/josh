@@ -49,7 +49,7 @@ chmod 775 bootstrap/cache
 If you are on linux/ mac you can run below command to chown it.
 
 ```
-chown -R www-data /var/www
+chown -R www-data /var/www/html
 ```
 
 #### database credentials
@@ -88,6 +88,21 @@ and you can access admin section by going to [http://URL/public/admin](http://UR
 # After setup
 
 Still we need to get some keys and setup things to make sure josh is working properly
+
+#### Uploads folders permission
+
+we need to provide write permission to following folder
+```
+public/uploads/blog
+
+public/uploads/crudfiles
+
+public/uploads/files
+
+public/uploads/news
+
+public/uploads/users
+```
 
 ##### CRUD folders permission
 
