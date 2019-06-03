@@ -2,9 +2,9 @@
 
 Thank you for purchasing JOSH Admin Template
 
-Please follow this guide on how to use this theme
+Please follow this guide on how to use this product.
 
-We explain about HTML version and also how to Laravel version.
+We explain about HTML version and also how to use Laravel version.
 
 If you come across any bugs,  please visit our  [Support Forum](https://lorvent.ticksy.com/).
 
@@ -12,9 +12,9 @@ If you come across any bugs,  please visit our  [Support Forum](https://lorvent.
 
 #### Note
 
-Josh is developer to help developers saving their time doing boring routine stuff hence it is not ready to use product.
+Josh is to help developers saving their time doing boring routine stuff hence it is not ready to use product.
 
-if you are not a developer \(or willing to try things\) then it may not be for you.
+if you are not a PHP developer \(or willing to try things\) then it may not be for you.
 
 
 
